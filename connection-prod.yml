@@ -1,0 +1,17 @@
+# Application Configuration
+app:
+  mode: online # Toggle between online and offline modes (online/offline)
+
+# News API Configuration
+news:
+  api:
+    url: https://newsapi.org/v2/everything?q={keyword}&apiKey={apiKey}
+
+  connection:
+      jasypt:
+        encryptor:
+          password: ${JASYPT_ENCRYPTOR_PASSWORD} # Environment variable to store encryption key
+          algorithm: PBEWITHHMACSHA512ANDAES_256
+          iv-generator-classname: org.jasypt.iv.RandomIvGenerator
+          secret-key: 1234567890123456
+          pool-size: 4
