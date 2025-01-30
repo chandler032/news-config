@@ -1,6 +1,6 @@
 # Application Configuration
 app:
-  mode: offline # Toggle between online and offline modes (online/offline)
+  mode: online # Toggle between online and offline modes (online/offline)
 
 # News API Configuration
 news:
