@@ -10,8 +10,7 @@ news:
   connection:
       jasypt:
         encryptor:
-          password: "{cipher}f3526d4e9136d12d60db57d249729a911916814746558973a5df3fc5508b3368c8b45559e11bf650d77ac4fe4d953700125bbf2a75e43f8d9576b023811c6590
-"
+          password: "{cipher}f3526d4e9136d12d60db57d249729a911916814746558973a5df3fc5508b3368c8b45559e11bf650d77ac4fe4d953700125bbf2a75e43f8d9576b023811c6590"
           algorithm: PBEWITHHMACSHA512ANDAES_256
           iv-generator-classname: org.jasypt.iv.RandomIvGenerator
           secret-key: 1234567890123456
